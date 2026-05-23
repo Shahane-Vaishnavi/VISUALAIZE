@@ -1,5 +1,3 @@
-"use client";
-
 import Link from "next/link";
 
 export default function Footer() {
@@ -55,15 +53,16 @@ export default function Footer() {
             <div className="flex flex-col gap-2 text-sm">
 
               <a
-                href="https://github.com"
+                href="https://github.com/priyanshu5ingh/VisualAIze"
                 target="_blank"
+                rel="noopener noreferrer"
                 className="text-gray-400 hover:text-cyan-400 transition"
               >
                 GitHub
               </a>
 
               <a
-                href="#"
+                href="mailto:support@visualaize.com"
                 className="text-gray-400 hover:text-cyan-400 transition"
               >
                 Contact Support
@@ -78,7 +77,7 @@ export default function Footer() {
         <div className="border-t border-white/10 mt-10 pt-6 text-center">
 
           <p className="text-sm text-gray-500">
-            © 2026 VisualAIze Pro. All rights reserved.
+            © {new Date().getFullYear()} VisualAIze Pro. All rights reserved.
           </p>
 
         </div>
